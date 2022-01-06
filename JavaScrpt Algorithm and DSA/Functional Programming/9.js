@@ -121,12 +121,13 @@ const watchList = [
 
 // Only change code below this line
 
-const mapList = watchList.map(function (list) {
-  return { title: list['Title'], rating: list['imdbRating'] }
-})
-const filteredList = mapList.filter(function (list) {
-  return list.rating >= 8
-})
+const filteredList = watchList
+  .map(function (list) {
+    return { title: list['Title'], rating: list['imdbRating'] }
+  })
+  .filter(function (list) {
+    return list.rating >= 8
+  })
 
 // Only change code above this line
 
