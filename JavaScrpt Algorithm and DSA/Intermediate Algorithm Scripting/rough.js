@@ -1,31 +1,3 @@
-function whatIsInAName(collection, source) {
-  // "What's in a name? that which we call a rose
-  // By any other name would smell as sweet.”
-  // -- by William Shakespeare, Romeo and Juliet
-  var srcKeys = Object.keys(source)
-
-  // filter the collection
-  return console.log(
-    collection.filter(function (obj) {
-      return console.log(
-        srcKeys
-          .map(function (key) {
-            return obj.hasOwnProperty(key) && obj[key] === source[key]
-          })
-          .reduce(function (a, b) {
-            return a && b
-          })
-      )
-    })
-  )
-}
-
-// test here
-whatIsInAName(
-  [
-    { first: 'Romeo', last: 'Montague' },
-    { first: 'Mercutio', last: null },
-    { first: 'Tybalt', last: 'Capulet' },
-  ],
-  { last: 'Capulet' }
-)
+let charac = 'Hi'
+console.log((charac = charac.replace(charac[0], charac[0].toLowerCase())))
+console.log(charac)
