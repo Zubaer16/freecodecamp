@@ -1,3 +1,11 @@
-let charac = 'Hi'
-console.log((charac = charac.replace(charac[0], charac[0].toLowerCase())))
-console.log(charac)
+function convertHTML(str) {
+  let tr = str.split('')
+  tr.forEach(function (element) {
+    if (element == '>') {
+      element = 'hi'
+    }
+  })
+  return tr.join('')
+}
+
+console.log(convertHTML('Dolce > abbana >'))
