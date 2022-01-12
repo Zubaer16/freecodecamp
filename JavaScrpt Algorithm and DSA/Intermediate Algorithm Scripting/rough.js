@@ -8,10 +8,10 @@ function palindrome(str) {
 
   console.log(input.join(''))
   console.log(output.join(''))
-  // if (input.join('') === output.join('')) {
-  //   return true
-  // }
-  // return false
+  if (input.join('') === output.join('')) {
+    return true
+  }
+  return false
 }
 
 console.log(palindrome('A man, a plan, a canal. Panama'))
