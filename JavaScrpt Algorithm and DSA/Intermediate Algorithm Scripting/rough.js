@@ -1,14 +1,5 @@
-function dropElements(arr, func) {
-  for (let i = 0; i < arr.length; i++) {
-    if (func(arr[i])) {
-      return arr.slice(i)
-    }
-  }
-  return []
+function steamrollArray(arr) {
+  return arr.toString()
 }
 
-console.log(
-  dropElements([1, 2, 3, 4], function (n) {
-    return n > 5
-  })
-)
+console.log(steamrollArray([1, {}, [2], [3, [[4]]]]))
