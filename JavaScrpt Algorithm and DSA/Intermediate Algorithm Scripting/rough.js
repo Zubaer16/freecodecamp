@@ -1,5 +1,5 @@
-function truthCheck(collection, pre) {
-  return collection.every((element) => element[pre])
+function addTogether() {
+  return typeof [3]
 }
 
-console.log(truthCheck([{ single: 'double' }, { single: NaN }], 'single'))
+console.log(addTogether(2, [3]))
