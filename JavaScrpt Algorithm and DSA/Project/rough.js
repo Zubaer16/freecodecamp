@@ -1,10 +1,12 @@
-let code = 'SERR'.split('')
-let newArr = []
-for (i = 0; i < code.length; i++) {
-  if (90 - code[i].charCodeAt(i) > 26) {
-    newArr.push(String.fromCharCode(code[i].charCodeAt(0) + 13))
+let code = 'SERR?'
+let output = ''
+for (let i = 0; i < code.length; i++) {
+  if (code.charCodeAt(i) > 64 && code.charCodeAt(i) < 78) {
+    output = output + String.fromCharCode(code.charCodeAt(i) + 13)
+  } else if (code.charCodeAt(i) > 78 && code.charCodeAt(i) < 91) {
+    output = output + String.fromCharCode(code[i].charCodeAt(0) - 13)
   } else {
-    newArr.push(String.fromCharCode(code[i].charCodeAt(0) - 13))
+    output = output + code.charAt(i)
   }
 }
-console.log(newArr)
+console.log(output)
