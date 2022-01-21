@@ -1,6 +1,3 @@
-function telephoneCheck(str) {
-  let regex = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/
-  return regex.test(str)
-}
+function telephoneCheck(str) {}
 
-console.log(telephoneCheck('555-555-55555'))
+console.log(telephoneCheck('tutorialspoint'))
