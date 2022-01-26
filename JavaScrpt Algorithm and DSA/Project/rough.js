@@ -1,3 +1,3 @@
 function telephoneCheck(str) {}
 
-console.log(telephoneCheck('tutorialspoint'))
+console.log(telephoneCheck('tutorialspointt'))
