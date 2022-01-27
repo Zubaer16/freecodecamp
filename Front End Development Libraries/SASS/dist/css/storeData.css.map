@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,MAAM;CACnB;;AACD,AAAA,UAAU;AACV,EAAE,CAAC;EACD,KAAK,EANM,GAAG;CAOf",
+    "sources": [
+        "../../scss/storeData.scss"
+    ],
+    "names": [],
+    "file": "storeData.css"
+}

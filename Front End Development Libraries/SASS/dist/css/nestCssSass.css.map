@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,UADQ,CACR,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,IAAI;CACZ;;AAJH,AAKE,UALQ,CAKR,CAAC,CAAC;EACA,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "../../scss/nestCssSass.scss"
+    ],
+    "names": [],
+    "file": "nestCssSass.css"
+}
