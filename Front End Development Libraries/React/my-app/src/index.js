@@ -10,9 +10,17 @@ import ToDo from './components/arrayprops'
 import ShoppingCart from './components/overrridedefaultprop'
 import ShoppingCar from './components/definpropype'
 import App from './components/thisprops'
+import CampSite from './components/reviewprops'
+import St from './components/state'
+import MyComponent from './components/renderstate'
+import MyCompon from './renderstateanotherway'
+import MyState from './components/setState'
+import Bindthis from './components/bindthis'
+import ToggleStat from './components/toggleState'
+import Counter from './components/counterstate'
 
-const MyComponent = function () {
-  return <div>hi</div>
-}
+// const MyComponent = function () {
+//   return <div>hi</div>
+// }
 
-reactDom.render(<App />, document.getElementById('root'))
+reactDom.render(<Counter />, document.getElementById('root'))

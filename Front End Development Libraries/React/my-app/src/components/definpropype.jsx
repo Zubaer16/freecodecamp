@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-
+import PropTypes from 'prop-types'
 const Items = (props) => {
   return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
 }
 
 // Change code below this line
-// Items.propTypes = {
-//   quantity: PropTypes.number.isRequired,
-// }
+Items.propTypes = {
+  quantity: PropTypes.number.isRequired,
+}
 
 // Change code above this line
 
