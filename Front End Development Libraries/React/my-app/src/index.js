@@ -37,9 +37,10 @@ import GateKeeper from './components/conditionalcss'
 import MyToDoList from './components/arraymap'
 import Frameworks from './components/uniquekeymap'
 import Filter from './components/filterarray'
+import Stations from './components/stations'
 
 // const MyComponent = function () {
 //   return <div>hi</div>
 // }
 
-reactDom.render(<Filter />, document.getElementById('root'))
+reactDom.render(<Stations />, document.getElementById('root'))
