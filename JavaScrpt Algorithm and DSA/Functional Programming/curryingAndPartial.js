@@ -1,3 +1,4 @@
+// This is a part of the test suite for the currying and partial functions.
 function add(x) {
   // Only change code below this line
   return function (y) {
