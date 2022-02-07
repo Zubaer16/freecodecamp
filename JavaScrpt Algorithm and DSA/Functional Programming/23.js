@@ -1,3 +1,4 @@
+// this is a comment
 function checkPositive(arr) {
   // Only change code below this line
 
