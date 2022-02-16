@@ -33,7 +33,6 @@ function updateInventory(arr1, arr2) {
   return console.log(arr1)
 }
 
-
 var curInv = [
   [21, 'Bowling Ball'],
   [2, 'Dirty Sock'],
@@ -48,4 +47,4 @@ var newInv = [
   [7, 'Toothpaste'],
 ]
 
-updateInventory(curInv, newInv)
+console.log(updateInventory(curInv, newInv))
